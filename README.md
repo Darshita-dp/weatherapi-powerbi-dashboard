@@ -1,6 +1,6 @@
 # WeatherAPI Power BI Dashboard
 
-![Dashboard Preview](screenshots/main-dashboard.png)
+![Dashboard Preview](screenshots/main-dashboard-Chicago.png)
 
 ## Overview
 This project is an interactive Power BI dashboard that analyzes real-time weather data using the WeatherAPI service. The dashboard consolidates current weather conditions, weekly forecast trends, and air quality indicators into a single visual interface designed for quick decision-making and environmental awareness.
@@ -83,20 +83,27 @@ Key steps include:
 ---
 
 ## Project Structure
+
+```
 weatherapi-powerbi-dashboard
 │
 ├── README.md
 ├── .gitignore
+│
 ├── dashboard/
-│ └── WeatherAPI_Dashboard.pbix
+│   └── WeatherAPI_Dashboard.pbix
+│
 ├── screenshots/
-│ ├── main-dashboard.png
-│ ├── forecast-section.png
-│ └── aqi-section.png
+│   ├── main-dashboard.png
+│   ├── forecast-section.png
+│   └── aqi-section.png
+│
 ├── dax/
-│ └── dax-measures.md
+│   └── dax-measures.md
+│
 └── data/
-└── sample-data-or-note.md
+    └── sample-data-or-note.md
+```
 
 
 ---
@@ -110,6 +117,12 @@ Through this project I practiced:
 - building reusable DAX measures
 - implementing AQI classification logic
 - designing a user-friendly analytics dashboard
+
+---
+
+## Architecture
+
+WeatherAPI → Power Query → Data Model → DAX Measures → Power BI Dashboard
 
 ---
 
